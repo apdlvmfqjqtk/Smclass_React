@@ -34,7 +34,7 @@ function App() {
       <div>{ename}</div>
       <br/>
         {/*자바 스크립트 : onclick, 리액트 : onClick*/}       
-
+      <h3>테스트문구입니다.</h3>
       <input type='text' name='id' className='id' onChange={(event)=>setId(event.target.value)} value={id} placeholder='아이디를 입력하세요'></input>
       <br/>
       <input type='text' name='pw' className='pw' onChange={(event)=>setPw(event.target.value)}  onKeyUp={pwBtn} placeholder='비밀번호를 입력하세요'></input>
